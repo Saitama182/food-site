@@ -723,6 +723,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
+  padding-bottom: 120px;
   
 }
 
@@ -765,3 +766,128 @@ img {
 }
 
 /* Promoting style end */
+
+/* Decore style start*/
+.eggs_wrap{
+  max-width: 1380px;
+  background: url(../img/eggs-pic.jpg) no-repeat center;
+  margin: 0 auto;
+  height: 720px;
+    }
+.decore_starting{
+  margin-top: 115px;
+  margin-left: 222px;
+  
+}
+  .decore_title{
+    
+    font-family: 'Libre Franklin';
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 507px;
+    font-weight: 100;
+    color: #000000;
+    padding-bottom: 54px;
+    max-width: 685px;
+    height: 144px;
+    text-align: center;
+    }
+.decore_header-fat{
+  font-weight: 700;
+
+}
+.decore_more{
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+font-size: 11px;
+line-height: 18px;
+  color: #5AB963;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 91px;
+  margin-left: 297px;
+  
+
+
+}
+.decore_more:hover,
+.decore_more:focus,
+.decore_more:active {
+  opacity: .75;
+}
+
+/* Decore style end*/
+
+/* Food style  start */
+.wrapper-full{
+  margin-top: 236px;
+}
+
+
+.foods_food {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.food_info-second {
+  padding-left: 230px;
+}
+
+.food_title{
+  font-family: 'Libre Franklin';
+  font-weight: 100;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+margin-bottom: 25px;
+max-width: 362px;
+}
+.food_title-fat{
+  font-weight: 700;
+}
+.food_desc {
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+color: #999999;
+max-width: 362px;
+}
+
+.deal{
+  margin-top: 110px;
+  text-align: center;
+}
+
+.deal_title{
+  font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+
+}
+.deal_more{
+  font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 18px;
+text-decoration: none;
+text-transform: uppercase;
+color: #5AB963;
+}
+
+.deal_more:hover,
+.deal_more:focus,
+.deal_more:active {
+  opacity: .75;
+}
+
+
+
+/* Food style  end */
