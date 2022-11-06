@@ -896,6 +896,7 @@ color: #5AB963;
 /*Party style  start*/
 .party{
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 .party_info{
   
@@ -939,3 +940,71 @@ height: 72px;
   opacity: .75;
 }
 /*Party style  end*/
+
+/*Footer style  start*/
+.footer{
+  background: #0A0E1A;
+  padding: 120px 0 175px 0;
+}
+
+.footer_desc{
+padding-top: 15px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #666666;
+}
+
+.footer_item{
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+.footer_logo{
+  width: 50%;
+}
+
+.footer_nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+    
+}
+
+.footer_menu-item{
+  margin-bottom: 25px;
+}
+
+
+.footer_menu-link{
+  font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+
+.footer_menu-link:hover,
+.footer_menu-link:focus,
+.footer_menu-link:active {
+  opacity: .75;
+}
+
+.footer_menu-link-pic {
+margin-right: 22px;
+}
+
+.footer_menu-link-pic:hover,
+.footer_menu-link-pic:focus,
+.footer_menu-link-pic:active {
+  opacity: .75;
+}
+
+/*Footer style  end*/
