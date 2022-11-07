@@ -581,6 +581,7 @@ img {
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header styles start*/
@@ -592,12 +593,17 @@ img {
   width: 100%;
 }
 
+.header_active {
+  background: #0A0E1A;
+}
+
 .header_wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header_list {
